@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`upload image should upload image on cloude 1`] = `
+<div>
+  <input
+    accept="image/*"
+    className="makeStyles-input-2"
+    data-test="upload-btn"
+    display="hidden"
+    id="contained_button_file"
+    multiple={true}
+    onChange={[Function]}
+    type="file"
+  />
+  <label
+    htmlFor="contained_button_file"
+  >
+    <WithStyles(ForwardRef(Button))
+      color="primary"
+      component="span"
+      style={
+        Object {
+          "backgroundColor": "#0094ff",
+          "borderRadius": 0,
+        }
+      }
+      variant="contained"
+    >
+      Upload image
+    </WithStyles(ForwardRef(Button))>
+  </label>
+</div>
+`;

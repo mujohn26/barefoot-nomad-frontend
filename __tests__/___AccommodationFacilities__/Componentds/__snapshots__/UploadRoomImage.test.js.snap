@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`upload images should upload accommodation image on cloud 1`] = `
+<div>
+  <input
+    accept="image/*"
+    className="makeStyles-input-2"
+    data-test="upload-btn"
+    display="hidden"
+    id="contained_button_file"
+    multiple={true}
+    onChange={[Function]}
+    type="file"
+  />
+  <label
+    style={
+      Object {
+        "color": "#C4C4C4",
+        "fontSize": 15,
+        "textAlign": "center",
+      }
+    }
+  >
+    Provide Accomodation Image
+  </label>
+   
+  <label
+    htmlFor="contained_button_file"
+  >
+    <WithStyles(ForwardRef(Button))
+      className="makeStyles-button-3"
+      color="default"
+      component="span"
+      startIcon={<Memo(CloudUploadIcon) />}
+      variant="contained"
+    >
+      Upload
+    </WithStyles(ForwardRef(Button))>
+  </label>
+</div>
+`;
+
+exports[`upload images should upload room image on cloud 1`] = `
+<div>
+  <input
+    accept="image/*"
+    className="makeStyles-input-5"
+    data-test="upload-btn"
+    display="hidden"
+    multiple={true}
+    onChange={[Function]}
+    type="file"
+  />
+  <label
+    style={
+      Object {
+        "color": "#C4C4C4",
+        "fontSize": 15,
+        "textAlign": "center",
+      }
+    }
+  />
+   
+  <label>
+    <WithStyles(ForwardRef(Button))
+      className="makeStyles-button-6"
+      color="default"
+      component="span"
+      startIcon={<Memo(CloudUploadIcon) />}
+      variant="contained"
+    >
+      Upload
+    </WithStyles(ForwardRef(Button))>
+  </label>
+</div>
+`;

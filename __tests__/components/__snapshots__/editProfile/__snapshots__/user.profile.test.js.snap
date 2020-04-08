@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`user profile component should render the user profile  component successfully 1`] = `
+<Fragment>
+  <Styled(MuiBox)
+    style={
+      Object {
+        "height": "100%",
+      }
+    }
+    width="100%"
+  >
+    <Link
+      style={
+        Object {
+          "textDecoration": "none",
+        }
+      }
+      to="/profile"
+    >
+      <Styled(MuiBox)
+        height="80px"
+        width="100%"
+      >
+        <WithStyles(ForwardRef(Typography))
+          align="center"
+        >
+          <img
+            alt=""
+            style={
+              Object {
+                "borderRadius": "50%",
+                "height": "70px",
+                "objectFit": "cover",
+                "width": "30%",
+              }
+            }
+          />
+        </WithStyles(ForwardRef(Typography))>
+      </Styled(MuiBox)>
+      <Styled(MuiBox)
+        alignSelf={3}
+        fontStyle={2}
+      >
+        <WithStyles(ForwardRef(Typography))
+          align="center"
+          style={
+            Object {
+              "color": "gray",
+              "fontSize": "18px",
+            }
+          }
+        >
+          undefined undefined
+        </WithStyles(ForwardRef(Typography))>
+      </Styled(MuiBox)>
+      <Styled(MuiBox)
+        marginTop={1}
+      >
+        <WithStyles(ForwardRef(Typography))
+          align="center"
+          style={
+            Object {
+              "color": "gray",
+              "fontSize": "18px",
+            }
+          }
+        />
+      </Styled(MuiBox)>
+    </Link>
+  </Styled(MuiBox)>
+  <Connect(WithStyles(withRouter(NavLinks))) />
+  <Styled(MuiBox)
+    marginTop={1}
+  >
+    <WithStyles(ForwardRef(ListItem))
+      button={true}
+      id="dashboard"
+      onClick={[Function]}
+    >
+      <WithStyles(ForwardRef(ListItemIcon))>
+        <ExitToAppIcon />
+      </WithStyles(ForwardRef(ListItemIcon))>
+      <WithStyles(ForwardRef(ListItemText))>
+        <WithStyles(ForwardRef(Typography))
+          style={
+            Object {
+              "fontSize": "16px",
+            }
+          }
+        >
+          Logout
+        </WithStyles(ForwardRef(Typography))>
+      </WithStyles(ForwardRef(ListItemText))>
+    </WithStyles(ForwardRef(ListItem))>
+  </Styled(MuiBox)>
+   
+</Fragment>
+`;

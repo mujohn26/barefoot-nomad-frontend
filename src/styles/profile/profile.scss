@@ -1,0 +1,22 @@
+html,
+#root,
+.app,
+body {
+	height: 100vh;
+	background-color: white;
+}
+.user-profile_image_pic {
+	width: 38%;
+	height: auto;
+	border-radius: 50%;
+}
+.dashboard_side-nav-bar_logo,
+.dashboard_side-nav-bar_logo_image {
+	width: 95%;
+	height: 100;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}

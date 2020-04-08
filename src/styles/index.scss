@@ -1,0 +1,92 @@
+@import './profile/profile';
+@import './notification/notification.scss';
+html,
+body,
+#root,
+.app,
+.view_container {
+	height: 100vh;
+	background-color: white;
+	overflow-x: hidden;
+}
+
+.booking_grid_scroll{
+	max-height: 80vh;
+}
+
+.booking_list_scroll{
+	height: 87vh;
+}
+
+.booking_list_scroll2{
+	height: 75vh;
+}
+
+.hover_event{
+	cursor: pointer;
+}
+
+.row{
+	width: 760px;
+	overflow-x: scroll;
+}
+
+@media screen and (max-width: 450px) {
+	.row{
+		width: 295px;
+	}
+}
+
+@media(min-width: 400px) and (max-width: 450px) {
+	.row{
+		width: 331px;
+	}
+}
+
+.modal-2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 16px;
+}
+.page_404{
+	padding:40px 0;
+	background:#fff;
+	font-family: 'Arvo', serif;
+}
+
+.page_404  img{ width:100%;}
+
+.four_zero_four_bg{
+	background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+ }
+ 
+ 
+ .four_zero_four_bg h1{
+ font-size:80px;
+ }
+ 
+.four_zero_four_bg h3{
+	font-size:80px;
+}
+			 
+.link_404{			 
+	color: #fff!important;
+    padding: 10px 20px;
+    background: #0094FF;
+    margin: 20px 0;
+	display: inline-block;
+	text-decoration: none;
+}
+.contant_box_404{ margin-top:-50px;}
+
+.center {
+	text-align: center;
+}
+
+.text_404 {
+	margin: 0px;
+}

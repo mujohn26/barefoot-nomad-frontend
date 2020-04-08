@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Top navigation bar component should render the top navigation bar  component successfully 1`] = `
+<Fragment>
+  <Styled(MuiBox)
+    display="flex"
+    justifyContent="flex-end"
+    width={0.3}
+  >
+    <Styled(MuiBox)
+      pr={1}
+      style={
+        Object {
+          "marginTop": "10px",
+        }
+      }
+    >
+      <img
+        height="24px"
+        src="https://res.cloudinary.com/dby88h516/image/upload/v1580893608/email_1_jupvlq.svg"
+        width="100%"
+      />
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      pl={1}
+      style={
+        Object {
+          "marginTop": "10px",
+        }
+      }
+    >
+      <PopupState
+        popupId="demo-popup-popover"
+        style={
+          Object {
+            "width": "50%",
+          }
+        }
+        variant="popover"
+      >
+        <Component />
+      </PopupState>
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+</Fragment>
+`;
