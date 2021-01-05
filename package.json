@@ -76,7 +76,7 @@
     "@material-ui/lab": "^4.0.0-alpha.41",
     "@material-ui/pickers": "^3.2.10",
     "@types/date-fns": "^2.6.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "clean-webpack-plugin": "^2.0.0",
     "clsx": "^1.1.0",
     "date-fns": "^2.11.0",
